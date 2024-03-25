@@ -38,6 +38,7 @@ header{
     h1{
         color: $retroblue;
         text-shadow: 1px 4px 7px $retrored;
+        
     }
 
     ul{
@@ -72,6 +73,7 @@ header{
     border-radius: 16px;
     padding: 20px;
     display: none;
+    box-shadow: 11px 18px 36px -21px black;
 }
 
 .displayed{
@@ -93,8 +95,11 @@ header{
     color: $retrored;
     font-size: 36px;
     padding: 10px; 
-    text-align: center;
+    text-align: left;
     box-sizing: border-box;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 4px $retrored;
+    font-weight: 500;
 }
 
 
@@ -131,11 +136,11 @@ footer{
         text-shadow: 1px 4px 7px rgba(255,255,255,0.6);
     }
 
-    padding: 30px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 .pack-container{
@@ -197,6 +202,8 @@ footer{
 
     }
 }
+
+
 
 @media (max-width: 768px) {
     .hero{
