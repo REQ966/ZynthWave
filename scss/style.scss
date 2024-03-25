@@ -64,6 +64,21 @@ header{
     }
 }
 
+.menu{
+    position: absolute;
+    right: 40px;
+    top: 120px;
+    background-color: black;
+    border: 1px solid $retroblue;
+    border-radius: 16px;
+    padding: 20px;
+    display: none;
+}
+
+.displayed{
+    display: inline;
+}
+
 .on{
    color: white;
 }

@@ -13,3 +13,10 @@ const observer = new IntersectionObserver((e) => {
 
 const hiddenElements = document.querySelectorAll(".hidden");
 hiddenElements.forEach((el) => observer.observe(el))
+
+
+document.querySelector(".hamburger").addEventListener("click", function(){
+
+    document.querySelector(".menu").classList.toggle("displayed")
+
+})
