@@ -141,7 +141,7 @@ footer{
 .pack-container{
     max-width: 1000px;
     margin: 0 auto;
-    height: 600px;
+    height: 800px;
 
     h1{
         margin-bottom: 20px;
@@ -179,7 +179,8 @@ footer{
                 transition: 0.5s ease-out;
 
                 &:hover{
-                    background: linear-gradient(90deg,rgb(87,218,218) 0%, rgb(218,87,137) 80%);
+                    background: linear-gradient(135deg,rgb(87,218,218) 0%, rgb(218,87,137) 80%);
+                    text-shadow: 1px 4px 7px white;
                     box-shadow: 10px 10px 20px -13px rgba(255,255,255,0.75);
                     font-size: 18px;
                     font-weight: 500;
@@ -211,8 +212,8 @@ footer{
     }
 
     .pack-container{
-
-        height: 1200px;
+        padding: 10px;
+        height: 1400px;
         .packs{
             grid-template-columns: repeat(1, 1fr);
         }
