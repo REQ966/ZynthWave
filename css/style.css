@@ -169,6 +169,7 @@ footer .copyright {
   font-size: 18px;
   font-weight: 500;
   height: 50px;
+  border: none;
 }
 
 @media (max-width: 768px) {
