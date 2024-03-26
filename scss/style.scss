@@ -4,7 +4,6 @@
 
 body{
 
-    height: 100vh;
     padding: 0;
     margin: 0;
     background-image: url(https://w.wallhaven.cc/full/13/wallhaven-13eq39.jpg);
@@ -106,6 +105,7 @@ header{
 
 
 footer{
+    border-top: 3px solid white;
     width: 100%;
     position: absolute;
     background-color: black;
@@ -169,7 +169,7 @@ footer{
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            height: 250px;
+            height: 300px;
             border-radius: 16px;
             background: black;
             border: 1px solid $retroblue;
@@ -226,7 +226,7 @@ footer{
 
     .pack-container{
         padding: 10px;
-        height: 1600px;
+        height: 1800px;
         .packs{
             grid-template-columns: repeat(1, 1fr);
         }
